@@ -1,4 +1,4 @@
-#[Sharaqi.](link)
+# [Sharaqi.](link)
 ###### [Sharaqi - Is a Personal Website and Portfolio.](link)
 
 > * [Sharaqi](link) live website*
