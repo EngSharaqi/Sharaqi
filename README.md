@@ -1,9 +1,7 @@
-# [Sharaqi.](link)
-###### [Sharaqi - Is a Personal Website and Portfolio.](link)
+# Sharaqi.
+###### Sharaqi - Is a Personal Website and Portfolio.
 
-> * [Sharaqi](link) live website*
-
-This project is build with ```Node.js Express.js, MongoDB```.
+> *[Visit Sharaqi Website!](link)*
 
 **The Main Purpose:**
 
@@ -19,6 +17,7 @@ This project is build with ```Node.js Express.js, MongoDB```.
 * Dynamic - All informations and data is updated continuously and permanently.
 
 #
+> This project is build with ```Node.js Express.js, MongoDB```.
 
 ###### **Created with <3 and coffee by. [Sharaqi](link)**
 
