@@ -20,6 +20,6 @@ This project is build with ```Node.js Express.js, MongoDB```.
 
 #
 
-###### ** Created with <3 and coffee by. [Sharaqi](link) **
+###### **Created with <3 and coffee by. [Sharaqi](link)**
 
 ###### Thanks for Scrolling!
