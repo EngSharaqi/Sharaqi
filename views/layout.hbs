@@ -28,7 +28,11 @@
 </head>
 
 <body>
-  <div class="topar">
+
+  {{#if removeTopar}}
+    
+  {{else}}
+    <div class="topar">
     <div class="row">
                 <div class="container">
                     <ul style="padding: 20px 0">
@@ -44,6 +48,8 @@
                 </div>
             </div>
   </div>
+  {{/if}}
+  
   {{{body}}}
  
   {{#if is404}}
