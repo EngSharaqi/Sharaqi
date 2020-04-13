@@ -1,0 +1,74 @@
+   <!--
+    **************************************************************************************************************************
+    *********** Proudly made by Eng. Muhammad Sharaqi ***********
+    **************************************************************************************************************************
+--><!--
+    Mail: MuhammadSharaqi@gmail.com | website: xxxxxxxxxxxxxxx | Phone: (+20)01030692427
+=============================================================================
+
+  -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8="
+    crossorigin="anonymous" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  {{#if is404}}
+  <link rel='stylesheet' href='/stylesheets/{{err}}' />
+  {{/if}}
+
+
+</head>
+
+<body>
+  <div class="topar">
+    <div class="row">
+                <div class="container">
+                    <ul style="padding: 20px 0">
+                        <li class="logo">
+                            <h2><a href="/">Sharaqi.</a></h2>
+                        </li>
+                        <li class="chooses"><a href="/">Home</a></li>
+                        <li class="chooses"><a href="/#portfolio">Portfolio</a></li>
+                        <li class="chooses"><a href="/">Resume</a></li>
+                        <li class="chooses"><a href="/#feedback">Feedback</a></li>
+                        <li class="chooses"><a href="/">Connect</a></li>
+                    </ul>
+                </div>
+            </div>
+  </div>
+  {{{body}}}
+ 
+  {{#if is404}}
+
+  {{else}}
+  <div class="row">
+    <div class="footer">
+      <h6>
+        <div class="social-footer">
+          <a href="https://www.linkedin.com/in/sirmuhammadaeb" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://behance.net/sirmuhammadaeb" target="_blank"><i class="fab fa-behance"></i></a>
+          <a href="https://join.skype.com/invite/hXdTi9Z8X5JO" target="_blank"><i class="fab fa-skype"></i></a>
+          <a href="mailto:muhammadsharaqi@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+201030692427"><i class="fas fa-phone"></i></a>
+        </div>
+        Sharaqi 2020 | All rights reserved<br># Made with <i class="fas fa-heart animated infinite pulse faster" style="color: red"></i> &amp; <i class="fas fa-coffee" style="color:#222"></i> by Sharaqi
+        <!--<br><br><br><small>Version 1.0.0</small>-->
+      </h6>
+    </div>
+  </div>
+  {{/if}}
+
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="../javascripts/{{WTSAM}}"></script>
+</body>
+
+</html>

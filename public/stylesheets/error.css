@@ -1,0 +1,16 @@
+img {
+	/* vertical-align: middle; */
+	border-style: none;
+	width: 30%;
+	/* text-align: center; */
+	margin: 0 auto;
+	display: inherit;
+	margin: 40px auto;
+}
+
+h1, .h1 {
+	margin: 80px auto 20px;
+	text-align: center;
+}
+
+p {text-align: center}
