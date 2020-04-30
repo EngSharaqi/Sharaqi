@@ -35,7 +35,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error', {err: 'error.css', is404: true});
+  res.render('error', {err: 'error.css', is404: true, title: 'Error 404 This page is not found | Sharaqi'});
 });
 
 is404 = ()=>{
