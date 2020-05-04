@@ -1003,6 +1003,28 @@ form {
   background-color: #fff700;
   border: 0
 }
+
+.sharaqi-word {
+	position: absolute;
+	top: 245px;
+	right: 30%;
+	z-index: 99;
+}
+
+h2.sharaqi, .sharaqi-word > p {
+	font-size: 500%;
+	right: 33%;
+}
+
+.sharaqi-word > p {
+	font-size: 80%;
+	top: 500px;
+	left: 0;
+	letter-spacing: 12px;
+	width: 100%;
+	color: #fff;
+}
+
 .chooses.bars{display: none}
 /* Media */
 @media (min-width: 70px) and (max-width: 997px){
@@ -1106,5 +1128,28 @@ form {
 		font-size: 14px;
 	}
 
+	.logo {
+		margin-right: 20px;
+	}
+
+	.sharaqi-word > p {
+		/* font-size: 13px; */
+		letter-spacing: 7px;
+		font-size: 65%;
+	}
+	h2.sharaqi {
+		font-size: 56px;
+		margin-bottom: 0;
+		font-size: 300%;
+	}
+	.sharaqi-word {
+		top: 50%;
+		right: 15%;
+	}
+
+	.txt-rotat {
+		margin-top: -44px;
+		margin-left: 0px;
+	}
 }
 /* End Media */
